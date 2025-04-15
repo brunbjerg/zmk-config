@@ -76,21 +76,21 @@
 
             bindings = <
             &kp F1         &kp F2        &kp F3      &kp F4      &kp F5                                                                                         &kp F6  &kp F7      &kp F8      &kp F9            &kp F10
-            &kp EQUAL      &kp N1        &kp N2      &kp N3      &kp N4      &kp N5                                                                      &kp N6  &kp N7  &kp N8      &kp N9      &kp N0            &none
-            &kp TAB        &kp Q         &kp W       &kp E       &kp R       &kp T                                                                       &kp Y   &kp U   &kp I       &kp O       &kp P             &kp BSLH
-            &kp ESC        &lt 1 A       &kp S       &kp D       &kp F       &kp G                                                                       &kp H   &kp J   &kp K       &kp L       &mt LALT SEMI     &kp SQT
-            &kp GRAVE      &kp Z         &kp X       &kp C       &kp V       &kp B   &kp LSHFT   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &layer_td    &kp N   &kp M   &kp COMMA   &kp DOT     &mt LCTRL SLASH   &none 
-            &mo MAGIC      &none         &kp RGUI    &kp LEFT    &kp RIGHT           &kp BSPC    &layer_td   &kp LALT   &kp RALT  &kp RET   &kp SPACE            &kp UP  &kp DOWN    &none       &none             &none 
+            &none          &kp N1        &kp N2      &kp N3      &kp N4      &kp N5                                                                      &kp N6 &kp N7  &kp N8      &kp N9      &kp N0            &none
+            &kp TAB        &kp Q         &kp W       &kp E       &kp R       &kp T                                                                       &kp Y  &kp U   &kp I       &kp O       &kp P             &none
+            &kp ESC        &lt 1 A       &kp S       &kp D       &kp F       &kp G                                                                       &kp H  &kp J   &kp K       &kp L       &mt LALT SEMI     &none
+            &none          &kp Z         &kp X       &kp C       &kp V       &kp B   &kp LSHFT   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &layer_td    &kp N  &kp M   &kp COMMA   &kp DOT     &mt LCTRL SLASH   &none 
+            &mo MAGIC      &none         &kp RGUI    &kp LEFT    &kp RIGHT           &kp BSPC    &layer_td   &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp UP  &kp DOWN    &none       &none             &none 
             >;
         };
 
         lower_layer {
             bindings = <
             &kp C_BRI_DN      &kp C_BRI_UP        &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                                                        &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP  &none           &kp PAUSE_BREAK
-            &trans            &none               &none           &none           &none        &none                                                                                 &none        &kp KP_NUM   &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp PSCRN
-            &trans            &none               &none           &kp LPAR        &kp RPAR     &none                                                                                 &none        &kp MINUS    &kp UNDER    &kp BSLH      &none           &kp SLCK
-            &trans            &none               &none           &kp LBRC        &kp RBRC     &none                                                                                 &none        &kp PLUS     &kp EQUAL    &kp PIPE      &none           &none
-            &trans            &none               &none           &kp LBKT        &kp RBKT     &none           &trans      &trans      &to DEFAULT &trans      &trans      &trans    &kp COMMA    &kp SQT      &kp DQT      &kp KP_N3     &kp KP_ENTER    &trans
+            &trans            &none               &none           &none           &none        &none                                                                                 &none        &none        &none        &none         &none           &kp PSCRN
+            &trans            &none               &none           &kp LPAR        &kp RPAR     &kp ESC                                                                               &kp TAB      &kp MINUS    &kp UNDER    &kp BSLH      &none           &kp SLCK
+            &trans            &none               &none           &kp LBRC        &kp RBRC     &kp PIPE                                                                              &kp BSLH     &kp PLUS     &kp EQUAL    &kp PIPE      &none           &none
+            &trans            &none               &none           &kp LBKT        &kp RBKT     &kp TILDE       &trans      &trans      &to DEFAULT &trans      &trans      &trans    &kp GRAVE    &kp SQT      &kp DQT      &kp KP_N3     &kp KP_ENTER    &trans
             &trans            &none               &none           &kp F11         &kp F12                      &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &trans
             >;
         };
